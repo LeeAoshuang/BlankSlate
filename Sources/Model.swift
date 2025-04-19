@@ -44,7 +44,7 @@ extension BlankSlate {
         /// - Parameters:
         ///   - edgeInsets: Padding around the edges of the control. `Default to UIEdgeInsets(top: 11, left: 16, bottom: 11, right: 16)`
         ///   - height: The height of the control. Default: `nil`, represents adaptive height. `Default to nil`
-        public init(edgeInsets: UIEdgeInsets = .init(top: 11, left: 16, bottom: 11, right: 16), height: CGFloat? = nil) {
+        public init(edgeInsets: UIEdgeInsets = .zero, height: CGFloat? = nil) {
             self.edgeInsets = edgeInsets
             self.height = height
         }
